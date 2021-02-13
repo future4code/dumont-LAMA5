@@ -6,7 +6,10 @@ import { Authenticator } from "./services/Authenticator";
 import { CustomError } from "./error/CustomError";
 
 export class UserBusiness {
-
+   signup(arg0: string, arg1: string, arg2: string, arg3: string) {
+     throw new Error("Method not implemented.");
+   }
+   
    constructor(
       private idGenerator: IdGenerator,
       private hashManager: HashManager,
